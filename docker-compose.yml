@@ -1,6 +1,6 @@
 version: "3"
 services:
-  qy:
+  lyg:
     container_name: soft2group2
     image: openjdk
     ports:
