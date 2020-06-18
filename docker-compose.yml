@@ -1,10 +1,10 @@
 version: "3"
 services:
   lyg:
-    container_name: soft2group3
+    container_name: soft2group2
     image: openjdk
     ports:
       - "3200:8080"
     volumes:
       - $PWD/target:/opt
-    command: java -jar /opt/soft2group3-0.0.1-SNAPSHOT.jar
+    command: java -jar /opt/soft2group2-0.0.1-SNAPSHOT.jar
