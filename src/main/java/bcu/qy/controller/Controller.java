@@ -16,7 +16,7 @@ public class Controller {
 	public List<Album> findAllAlbum(){
 		List<Album> albums=new ArrayList<>();
 		
-		for (int i = 0; i < 50; i++) {
+		for (int i = 0; i < 60; i++) {
 			Album a = new Album();
 			a.setId(i);
 			a.setName("soft2group2");
